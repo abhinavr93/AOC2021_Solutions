@@ -44,5 +44,5 @@ pub fn solve(input: &File) {
         }
     }
 
-    println!("Product: {}", num1 * num2);
+    println!("------PART1 SOLUTION------\nProduct: {}", num1 * num2);
 }

@@ -8,7 +8,7 @@ fn main() {
 
     part1::solve(&input);
 
-    let input = File::open("input/input.txt").unwrap();
+    let mut input = File::open("input/input.txt").unwrap();
 
-    part2::solve(&input);
+    part2::solve(&mut input);
 }
